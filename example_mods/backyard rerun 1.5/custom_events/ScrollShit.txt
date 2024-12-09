@@ -1,5 +1,0 @@
-Switch the scroll direction.
-
-Value 1 :
-0 = Upscroll
-1 = Downscroll
