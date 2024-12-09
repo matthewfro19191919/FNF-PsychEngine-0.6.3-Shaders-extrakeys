@@ -3997,7 +3997,7 @@ class PlayState extends MusicBeatState
 				newMania = Std.parseInt(value1);
 				if(Math.isNaN(newMania) && newMania < 0 && newMania > 9)
 					newMania = 0;
-				changeMania(newMania, skipTween
+				changeMania(newMania, skipTween);
 
 			case 'Change Character':
 				var charType:Int = 0;
